@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="10.55" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="BankRegistration" name="Registering for Bank" time="10.346">
+<system-out><![CDATA[
+Given User Click on "Register" in home page.................................passed
+And User enter "Pradeep" in "First Name"....................................passed
+And User enter "Dadi" in "Last Name"........................................passed
+And User enter "KPHB" in "Address"..........................................passed
+And User enter "Hyderabad" in "City"........................................passed
+And User enter "Telangana" in "State".......................................passed
+And user enter random 10 number into "Zip Code".............................passed
+And user enter random 10 number into "Phone"................................passed
+And User enter "456678" in "SSN"............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
