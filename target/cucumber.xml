@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="10.55" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="BankRegistration" name="Registering for Bank" time="10.346">
+<testsuite name="Cucumber" time="18.66" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="BankRegistration" name="Registering for Bank" time="18.452">
 <system-out><![CDATA[
 Given User Click on "Register" in home page.................................passed
 And User enter "Pradeep" in "First Name"....................................passed
@@ -11,6 +11,10 @@ And User enter "Telangana" in "State".......................................pass
 And user enter random 10 number into "Zip Code".............................passed
 And user enter random 10 number into "Phone"................................passed
 And User enter "456678" in "SSN"............................................passed
+And user enter random 10 char into "Username:"..............................passed
+And User enter "Deepu@16181" in "Password:".................................passed
+And User enter "Deepu@16181" in "Confirm"...................................passed
+And User Click on "Register" button.........................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

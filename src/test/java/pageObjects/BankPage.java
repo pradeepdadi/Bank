@@ -17,4 +17,10 @@ public WebElement clickable (String locator){
 public WebElement inputValue (String locator){
     return driver.findElement(By.xpath("(//*[contains(text(),'"+locator+"')]/following::input)[1]"));
 }
+public WebElement button (String locator){
+    return driver.findElement(By.xpath("//*[@value='"+locator+"']"));
+}
+public WebElement inputValueIndex (String locator, int index){
+    return driver.findElement(By.xpath("(//*[contains(text(),'"+locator+"')]/following::input)['"+index+"']"));
+}
 }
