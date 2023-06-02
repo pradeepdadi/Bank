@@ -26,6 +26,12 @@ public class BankStepDefnition {
     public void user_enter_something_in_something(String value, String locator)  {
        bankPage.inputValue(locator).sendKeys(value);
     }
+
+    @And("User Click on {string} button")
+    public void user_click_on_something_button(String locator) {
+        bankPage.button(locator).click();
+    
+    }
     
 }
 
